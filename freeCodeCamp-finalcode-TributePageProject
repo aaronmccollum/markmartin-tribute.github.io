@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mark Martin tribute</title>
+    <style>
+      h1 {
+        font-family: arial;
+        font-size: 40px;
+        font-style: oblique;
+        text-align: center;
+      }
+
+      img {
+        width: auto;
+        height: auto;
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+      }
+
+      figcaption {
+        text-align: center;
+      }
+
+      body {
+        background-color: #dddddd;
+      }
+
+      #tribute-info {
+        font-family: arial;
+        font-size: 18px;
+        color: #0808e0;
+      }
+
+      #footer-text {
+        text-align: center;
+        font-family: "Times New Roman";
+        color: black;
+      }
+    </style>
+  </head>
+  
+  <body id=main>
+    <h1 id=title>Mark Martin Tribute Page</h1>
+    
+    <div id="img-div">
+      <figure>
+        <img id="image" src="https://i.imgur.com/usoqxB9.png" alt="Mark Martin's #6 car crusing around a track during the 1998 season">
+        <figcaption id="img-caption">Mark Martin's famous #6 Valvoline car during the 1998 season.</figcaption>
+      </figure>
+    </div>
+    
+    <div id="tribute-info">
+      <p>Mark Martin is a former NASCAR driver born in Arkasas. He won 40 NASCAR Cup races, and finished 2nd in the Cup points standing five times.  Mark Martin was known for driving the #6 Valvoline/Phizer car for owner Jack Rouse, and the #5 car for Rick Hendrick later on in his career.</p>
+      <p>Mark started his career racing for himself in the 1980s with limited success.  By the mid-1980s, he had dropped out of NASCAR and was racing in lower divisions.  Then, in 1988 he secured a spot with NASCAR team owner Jack Roush to drive the #6 car, and his career took off.</p>
+      <p>His career reached a pinnacle in 1998 when he won a career high 7 races.  Unfortunately, Jeff Gordon that year won 13 and won the Championship, however Mark finished with more points than all the previous Cup Champions had when they won.  Out of 36 races in 1998, Jeff Gordon and Mark Martin combined for 20 wins.</p>
+      <p>Outside of NASCAR, enjoys traveling to places in his RV, attending races, and listening to hip-hop music.  His favorite rapper is Gucci Mane.  During his racing career and in retirement, Mark Martin is known for being in good shape and lifting weights routinely.</p>
+      <p>In 2017, Mark Martin received the greatest award of his career: induction into the NASCAR Hall of Fame.  In numerous interviews and podcasts, Mark has stated that he has very few regrets on his career and is very satisfied with the way it all turned out.  He will go down as one of the best NASCAR drivers in history.</p>
+      <p id="career-awards">Below are the top awards from Mark Martin's career:
+        <ul>
+          <li>1989 Richard Petty Driver of the Year</li>
+          <li>2002, 2005, 2009 NASCAR Illustrated Sportsperson of the Year Award receipient</li>
+          <li>2008 Legends of the Glen inductee</li>
+          <li>2015 Motorsports Hall of Fame of America inductee</li>
+          <li>2017 NASCAR Hall of Fame inductee</li>
+        </ul>
+      </p>
+      <p>To learn more about Mark's illustrious career, you can <a id="tribute-link" href="https://en.wikipedia.org/wiki/Mark_Martin" target="_blank">click here!</a></p>
+    </div>
+  </body>
+  
+  <footer>
+    <div id="footer-text">
+      <p>This page is a tribute page prepared by Aaron for his favorite childhood NASCAR driver and to pass the freeCodeCamp project challenge.</p>
+    </div>
+  </footer>
+</html>
