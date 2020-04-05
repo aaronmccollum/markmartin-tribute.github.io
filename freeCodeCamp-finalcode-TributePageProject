@@ -39,6 +39,10 @@
         font-family: "Times New Roman";
         color: black;
       }
+      
+      #title {
+          color: black;
+      }
     </style>
   </head>
   
